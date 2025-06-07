@@ -1,0 +1,64 @@
+//Variables are just like containers for holding values of different
+     //data types
+     /*
+     int: whole numbers -128 to 127 
+     floats: decimals forexample 19.46
+     strings : text or alphabets or alphanumerics
+     char: single values
+     boolean: two state values. "true or false")
+          
+     */
+
+public class JavaPractice {
+    public static void main(String[] arg){
+     System.out.println("VARIABLES");
+     
+      int yearOfBirth = 2004; //integers
+      System.out.println(yearOfBirth);
+  
+      //Decimals --> Floats
+      float Salary = 24.5645f;  
+      System.out.println(Salary + "Ugx");
+      
+      final String name = "Kevin";
+      System.out.println(name);
+      
+      String milkJerrycan = "Milk";
+      System.out.println(milkJerrycan);
+      
+      /*
+      //Should not allow re-assigning.
+      milkJerrycan = "Milk";
+      System.out.println(milkJerrycan); */
+      
+      //Standard Units ISO 
+     
+      boolean herReply = true;
+      boolean hisReaction = false;
+      char grade = 'A';
+     System.out.println("her Reply" + herReply + "his Reponse" + hisReaction);
+     System.out.println("Grade: " + grade);
+     
+     //Primitive can't be used to call methods.
+     int year = 2025;
+     ///Non Primitive: Strings, Arrays, Classes
+     
+     
+     //int salary = "Two thousand"; //Supplied a bad type
+     //System.out.printlin(salary);
+     
+     double myInt = 3.12345678910111213141516;
+     double myDouble = myInt;
+     System.out.println("myInt: " + myInt);
+     System.out.println("myDouble: " + myDouble);
+     
+     
+     
+     
+    }
+   
+    
+   
+    
+
+}
